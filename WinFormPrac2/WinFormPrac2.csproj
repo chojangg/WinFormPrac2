@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{51CE81F5-4C04-415B-A108-A4BD26354A98}</ProjectGuid>
+    <ProjectGuid>{2CF1A469-6BF5-425F-9F3D-144291225ACA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WinFormPrac2</RootNamespace>
-    <AssemblyName>WinFormPrac2</AssemblyName>
+    <RootNamespace>WinFormPrac31_2</RootNamespace>
+    <AssemblyName>WinFormPrac31-2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
